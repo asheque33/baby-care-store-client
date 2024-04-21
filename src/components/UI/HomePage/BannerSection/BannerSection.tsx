@@ -5,8 +5,7 @@ const BannerSection = () => {
     <div className="carousel w-full">
       <div id="slide1" className="carousel-item relative w-full h-[600px] ">
         <Image
-          width={1250}
-          height={300}
+          fill
           src="https://i.ibb.co/wQXL0FN/Babycare-banner-1-desktop-1600x500.jpg"
           alt="image1"
           className="mx-auto"
@@ -25,8 +24,7 @@ const BannerSection = () => {
         className="carousel-item relative w-full h-[600px] mx-auto"
       >
         <Image
-          width={1250}
-          height={300}
+          fill
           src="https://i.ibb.co/9vX0z5H/feeding-main-banner.jpg"
           alt="image2"
         />
@@ -44,8 +42,7 @@ const BannerSection = () => {
         className="carousel-item relative w-full h-[600px] mx-auto"
       >
         <Image
-          width={1250}
-          height={300}
+          fill
           src="https://i.ibb.co/BtWdf5R/diaper-main-banner.jpg"
           alt="image3"
         />
@@ -63,9 +60,8 @@ const BannerSection = () => {
         className="carousel-item relative w-full h-[600px] mx-auto"
       >
         <Image
-          width={1250}
-          height={300}
-          src="https://i.ibb.co/WfCHSpz/babycare-brands-desktop-1600x500-1600x500.jpg"
+          fill
+          src="https://i.ibb.co/xDD6WKY/hand-drawn-baby-shower-celebration-horizontal-banner-23-2150972837.jpg"
           alt="image4"
         />
         <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -82,8 +78,7 @@ const BannerSection = () => {
         className="carousel-item relative w-full h-[600px] mx-auto"
       >
         <Image
-          width={1250}
-          height={300}
+          fill
           src="https://i.ibb.co/jzWyRpd/Web-Banner-1600-500-1600x500.jpg"
           alt="image5"
         />

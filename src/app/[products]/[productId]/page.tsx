@@ -10,7 +10,7 @@ type TParams = {
 //     "https://baby-care-store-backend-sand.vercel.app/products"
 //   );
 //   const { data: selectedProducts } = await res.json();
-//   return selectedProducts.slice(0, 5).map((product: TProduct) => ({
+//   return selectedProducts.slice(0, 10).map((product: TProduct) => ({
 //     productId: product._id,
 //   }));
 // };
